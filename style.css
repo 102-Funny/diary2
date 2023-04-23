@@ -1,0 +1,85 @@
+html body{
+  background-color: #EEDDFA;
+}
+footer{
+  background-color: #a361ff80;
+  text-align: center;
+  margin-top: 2%;
+}
+button{
+  width: 80px;
+  height: 45px;
+  margin: 2% 5%;
+  border: 0;
+  border-radius: 10px;
+  background-color: #A461FF;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: white;
+  color: #A461FF;
+  border: 2px #A461FF solid;
+}
+.btn2{
+  width: 80px;
+  height: 45px;
+  margin: 2% 5%;
+  border: 0;
+  border-radius: 10px;
+  background-color: #579e85;
+  color: white;
+  cursor: pointer;
+}
+.btn2:hover{
+  background-color: white;
+  color: #579e85;
+  border: 2px #579e85 solid;
+}
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+.center{
+  padding: 50px;
+  margin-top: 3%;
+  border:2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #0000003f;
+}
+#car {
+width: 192px;
+height: 192px;
+overflow: hidden;
+z-index: 2;
+background-image: url("https://i.imgur.com/PDjcp3Z.gif");
+position: relative;
+animation: mymove 8s infinite;
+}
+#grass {
+  z-index: 1;
+  background-image: url("grass.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+@keyframes mymove {
+from {left: -80px;}
+to {left: 1400px;}
+}
+.btn{
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  width: 100px;
+  height: 60px;
+}
+.btn:hover{
+  background-color: white;
+  color: orange;
+  border: 2px orange solid;
+}
